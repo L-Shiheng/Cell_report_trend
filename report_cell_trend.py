@@ -16,7 +16,7 @@ st.set_page_config(page_title="趋势图报告生成器 (大字体版)", layout=
 
 # 中文字体设置
 plt.rcParams['axes.unicode_minus'] = False
-possible_fonts = ['SimHei', 'Microsoft YaHei', 'SimSun', 'Arial Unicode MS', 'PingFang SC', 'Heiti TC']
+possible_fonts = ['simhei', 'Microsoft YaHei', 'SimSun', 'Arial Unicode MS', 'PingFang SC', 'Heiti TC']
 found_font = None
 for font in possible_fonts:
     try:
@@ -321,3 +321,4 @@ if uploaded_file is not None:
                     file_name=f"Trend_Report_{cols_per_row}x_LargeFont.pdf",
                     mime="application/pdf"
                 )
+
