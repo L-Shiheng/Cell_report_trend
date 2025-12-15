@@ -9,9 +9,4 @@ torch
 seaborn
 fpdf
 openpyxl
-
-os
-shutil
-gc
-
-
+matplotlib.pyplot
