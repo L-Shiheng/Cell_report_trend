@@ -8,3 +8,4 @@ matplotlib
 torch
 seaborn
 fpdf
+openpyxl
