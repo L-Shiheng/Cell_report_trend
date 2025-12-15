@@ -305,7 +305,7 @@ if uploaded_file is not None:
         return 0
     with c1: col_compound = st.selectbox("化合物列", cols, index=get_index(cols, "化合物"))
     with c2: col_time = st.selectbox("时间列 (X轴)", cols, index=get_index(cols, "天数"))
-    with c3: col_value = st.selectbox("数值列 (Y轴)", cols, index=get_index(cols, "峰面积"))
+    with c3: col_value = st.selectbox("数值列 (Y轴)", cols, index=get_index(cols, "峰面积比"))
     with c4: col_group = st.selectbox("分组列 (颜色)", cols, index=get_index(cols, "培养基"))
 
     st.write("---")
@@ -339,4 +339,5 @@ if uploaded_file is not None:
                     file_name="Trend_Report_CN.pdf",
                     mime="application/pdf"
                 )
+
 
