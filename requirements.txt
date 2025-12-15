@@ -8,6 +8,7 @@ matplotlib
 torch
 seaborn
 fpdf
-openpyxl
+
 SimHei.ttf
+
 
