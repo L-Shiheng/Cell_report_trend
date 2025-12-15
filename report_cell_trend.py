@@ -121,7 +121,7 @@ def create_trend_image(subset, comp_name, col_time, col_value, col_group, temp_d
     
     # X轴和Y轴标签改成中文
     ax1.set_xlabel("天数", fontsize=10, fontproperties=title_font) 
-    ax1.set_ylabel("峰面积", fontsize=10, fontproperties=title_font)
+    ax1.set_ylabel("峰面积比", fontsize=10, fontproperties=title_font)
     
     if show_legend:
         # 图例标题改成 "分组"
@@ -339,3 +339,4 @@ if uploaded_file is not None:
                     file_name="Trend_Report_CN.pdf",
                     mime="application/pdf"
                 )
+
